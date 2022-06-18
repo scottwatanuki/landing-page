@@ -2,14 +2,16 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.container,
+.container-one,
 .footer {
     background-color: #1F2937;
 }
 
-.container {
+.container-one {
     display: flex;
     flex-direction: column;
     padding: 20px 230px;
@@ -62,7 +64,7 @@ li {
 }
 
 .image-placeholder {
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.565);
     display: flex;
     height: 220px;
     width: 1000px;
@@ -98,4 +100,32 @@ li {
 .button {
     display: text;
     margin-bottom: 16px;
+}
+
+.container-two {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 270px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 800;
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+}
+
+.information-text {
+    display: flex;
+}
+
+.information-text-one,
+.information-text-two,
+.information-text-three,
+.information-text-four {
+    display: flex;
+    margin: 30px;
 }
