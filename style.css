@@ -43,7 +43,8 @@ body {
 
 .header-links,
 .hero-secondary,
-.image-placeholder {
+.image-placeholder,
+.call-to-action-text {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -107,25 +108,107 @@ li {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 20px 270px;
+    padding-top: 20px 270px 40px;
+    height: auto;
 }
 
 .information-header {
     font-size: 36px;
     font-weight: 800;
     display: flex;
-    margin: 30px;
+    margin-top: 80px;
+    margin-bottom: 50px;
     justify-content: center;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.information-box {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    float: left;
+    width: 150px;
+    height: 150px;
+    border: 3.5px solid #3882f6;
+    margin: 10px 30px;
+    border-radius: 8px;
 }
 
 .information-text {
     display: flex;
+    margin: 10px 300px 100px;
+    gap: 45px;
+    text-align: center;
 }
 
-.information-text-one,
-.information-text-two,
-.information-text-three,
-.information-text-four {
+.container-three {
+    background-color: #e5e7eb;
+    height: auto;
+    padding: 100px 290px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    margin: 10px ;
+}
+
+.quote-citation {
+    font-size: 26px;
     display: flex;
-    margin: 30px;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.container-four {
+    padding: 100px 180px;
+    color: white;
+}
+
+.call-to-action {
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    align-content: center;
+}
+
+.call-to-action-container {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.call-to-action-header {
+    font-size: 24px;
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 110px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+}
+
+.footer {
+    padding: 50px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
