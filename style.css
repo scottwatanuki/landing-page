@@ -108,6 +108,7 @@ li {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
     padding-top: 20px 270px 40px;
     height: auto;
 }
@@ -142,10 +143,16 @@ li {
     border-radius: 8px;
 }
 
+.text {
+    display: flex;
+    width: auto;
+    height: auto;
+    margin: 10px 30px;
+}
+
 .information-text {
     display: flex;
     margin: 10px 300px 100px;
-    gap: 45px;
     text-align: center;
 }
 
@@ -212,3 +219,8 @@ li {
     justify-content: center;
     align-items: center;
 }
+
+/* * {
+    box-sizing: border-box;
+    background: rgb(0 100 0 / 0.1) !important;
+} */
