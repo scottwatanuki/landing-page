@@ -6,23 +6,17 @@ body {
     flex-direction: column;
 }
 
-.container-one,
+.header,
+.hero,
 .footer {
     background-color: #1F2937;
-}
-
-.container-one {
-    display: flex;
-    flex-direction: column;
-    padding: 20px 230px;
-    height: 475px; 
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 120px;
+    padding: 19px 230px;
 }
 
 .header-logo {
@@ -33,6 +27,13 @@ body {
 .header-links {
     display: flex;
     justify-content: space-between;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 230px;
+    height: 475px; 
 }
 
 .hero-main {
@@ -74,13 +75,8 @@ li {
     align-items: center;
 }
 
-.hero {
-    display: flex;
-    flex-direction: row;
-}
-
 .button,
-.call-to-action {
+.call-to-action-container {
     background-color: #3882f6;
 }
 
@@ -103,7 +99,7 @@ li {
     margin-bottom: 16px;
 }
 
-.container-two {
+.information {
     background-color: white;
     display: flex;
     justify-content: center;
@@ -156,7 +152,7 @@ li {
     text-align: center;
 }
 
-.container-three {
+.quote {
     background-color: #e5e7eb;
     height: auto;
     padding: 100px 290px;
@@ -176,22 +172,18 @@ li {
     align-items: flex-start;
 }
 
-.container-four {
-    padding: 100px 180px;
-    color: white;
-}
-
 .call-to-action {
     display: flex;
     border-radius: 10px;
-    padding: 10px;
+    padding: 100px 180px;
+    color: white;
     align-content: center;
 }
 
 .call-to-action-container {
-    padding: 50px 100px;
     display: flex;
     flex-direction: column;
+    padding: 50px 100px;
     align-content: center;
 }
 
