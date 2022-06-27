@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 19px 230px;
+    padding: 20px 100px;
 }
 
 .header-logo {
@@ -37,7 +37,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 20px 230px;
+    padding: 20px 100px;
     height: 475px; 
 }
 
@@ -86,7 +86,7 @@ li {
 }
 
 .button,
-.call-to-action-container {
+.call-to-action {
     background-color: #3882f6;
 }
 
@@ -152,7 +152,7 @@ li {
 .quote {
     background-color: #e5e7eb;
     height: auto;
-    padding: 100px 290px;
+    padding: 100px 100px;
 }
 
 .quote-text {
@@ -174,9 +174,9 @@ li {
 .call-to-action {
     display: flex;
     border-radius: 10px;
-    padding: 100px 180px;
+    padding: 20px;
     color: white;
-    align-content: center;
+    margin: 100px;
 }
 
 .call-to-action-container {
@@ -201,6 +201,7 @@ li {
     text-decoration: none;
     color: white;
     border: 3px solid white;
+    margin: 20px;
 }
 
 /* footer */
@@ -213,7 +214,7 @@ li {
     align-items: center;
 }
 
-* {
+/* * {
     box-sizing: border-box;
     background: rgb(0 100 0 / 0.1) !important;
-} 
+} */
