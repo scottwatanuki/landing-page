@@ -41,6 +41,8 @@ body {
     align-items: center;
     padding: 20px 100px;
     height: 475px; 
+    justify-content: center;
+    align-content: center;
 }
 
 .hero-container {
@@ -116,7 +118,11 @@ li {
 .information {
     display: flex;
     flex-direction: column;
-    margin: 30px 100px 70px;
+    align-items: center;
+    padding: 20px 100px;
+    height: auto;
+    justify-content: center;
+    align-content: center;
     text-align: center;
 }
 
@@ -133,6 +139,9 @@ li {
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 .group {
@@ -140,6 +149,9 @@ li {
     flex-direction: column;
     margin: 20px;
     justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 
 .box {
@@ -179,6 +191,9 @@ li {
     padding: 20px;
     color: white;
     margin: 100px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .call-to-action-container {
@@ -195,15 +210,16 @@ li {
 .button2 {
     display: flex;
     justify-content: center;
-    align-self: center;
+    align-items: center;
     width: 110px;
-    height: 20px;
-    padding: 10px;
+    height: 30px;
+    padding: 10px 0px;
     border-radius: 8px;
     text-decoration: none;
     color: white;
     border: 3px solid white;
     margin: 20px;
+    text-align: center;
 }
 
 /* footer */
