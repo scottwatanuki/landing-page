@@ -48,6 +48,7 @@ body {
 .hero-container {
     display: flex;
     flex-direction: column;
+    margin: 0px 20px 0px 200px;
 }
 
 .hero-main {
@@ -84,7 +85,7 @@ li {
     display: flex;
     height: 220px;
     width: 1000px;
-    margin: 0px 20px;
+    margin: 0px 200px 0px 0px;
     justify-content: center;
     align-items: center;
 }
@@ -124,6 +125,7 @@ li {
     justify-content: center;
     align-content: center;
     text-align: center;
+    margin: 50px 150px;
 }
 
 .information-header {
@@ -166,7 +168,7 @@ li {
 .quote {
     background-color: #e5e7eb;
     height: auto;
-    padding: 100px 100px;
+    padding: 100px 300px;
 }
 
 .quote-text {
@@ -190,10 +192,9 @@ li {
     border-radius: 10px;
     padding: 20px;
     color: white;
-    margin: 100px;
+    margin: 100px 300px;
     align-items: center;
     justify-content: center;
-    align-content: center;
 }
 
 .call-to-action-container {
